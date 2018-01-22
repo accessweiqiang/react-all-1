@@ -1,0 +1,30 @@
+.regist-wrap {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    h1 {
+        color: #607D8B;
+        margin: 0px auto 40px auto;
+        text-align: center;
+        font-weight: bold;
+    }
+    .regist-form {
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: 600px;
+        padding: 35px 35px 15px 35px;
+        margin: 100px auto;
+    }
+    .regist-form-forgot {
+        float: right;
+    }
+    .regist-form-button {
+        width: 100%;
+    }
+    #star {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
+}
