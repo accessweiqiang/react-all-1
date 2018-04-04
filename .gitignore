@@ -74,7 +74,7 @@ typings/
 
 # dotenv environment variables file
 .env
-
+.vscode
 © 2018 GitHub, Inc.
 Terms
 Privacy
