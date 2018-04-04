@@ -27,6 +27,7 @@
     },
     "plugins": [
         "react-hot-loader/babel",
+        "transform-flow-strip-types",
         ["import",
         {
             "libraryName": "antd",

@@ -16,15 +16,20 @@ import { syncHistoryWithStore } from 'react-router-redux';
 import App from 'component/app.jsx';
 import $ from 'jquery';
 import store from './storeFactory.js';
+import zh_CN from 'antd/lib/locale-provider/zh_CN';
+import { LocaleProvider } from 'antd'
+
 const appRender = Component => {
     render(
     <AppContainer>
       <Provider store={store}>
+        <LocaleProvider locale={zh_CN}>
           <Router >
             <div>
                 <Component />
             </div>
           </Router>
+        </LocaleProvider>
       </Provider>
     </AppContainer>,
     document.getElementById('app'),
